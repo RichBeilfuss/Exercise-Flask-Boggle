@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>Boggle</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/static/boggle.css">
   </head>
   <body>
+    <h1>Welcome to Boggle!</h1>
     <section id="boggle">
 
       <table class="board">
@@ -31,7 +34,7 @@
 
       <form method="POST" class="add-word">
         <input name="word" class="word" autofocus>
-        <button>Enter</button>
+        <button class="btn btn-secondary">Check word</button>
       </form>
 
       <p class="msg">
