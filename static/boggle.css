@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+}
+.board {
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    border: solid 4px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 400%;
+    background-color: teal;
+    color: white
+  }
+
+  p{
+    text-align:center;
+  }
+
+  form{
+    display:inline-block;
+  }
+
+  ul{
+    display: inline-block;
+  }
+
+  .board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  .msg {
+    font-weight: bold;
+    font-size: large;
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+  }
+  
+  
